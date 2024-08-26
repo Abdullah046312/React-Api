@@ -1,0 +1,76 @@
+#one{
+    padding: 120px 0px;
+    background-color: #E6B848;
+}
+
+.one_main{
+    text-align: center;
+   
+}
+
+.two_main{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+
+.one_main h2{
+    font-size: 64px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #29313D;
+}
+
+.one_main p{
+    font-size: 20px;
+    font-family: "Paprika", system-ui;
+    font-weight: 400;
+    color: rgba(114, 110, 158, 0.808);
+    margin-top: 30px;
+    padding: 0px 120px;
+    padding-bottom: 30px;
+}
+
+.one_main button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: rgba(193, 78, 55, 0.466);
+    font-size: 20px;
+    font-family: "Paprika", system-ui;
+    font-weight: 800;
+    border: none;
+    transform: scale(1);
+    transition: .5s;
+
+}
+
+.one_main button:hover{
+    background-color: #D6A033;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 320px) {
+    #one {
+        padding: 40px 5px; /* Further reduced padding */
+    }
+
+    .one_main h2 {
+        font-size: 28px; /* Further reduced font size for headers */
+    }
+
+    .one_main p {
+        font-size: 12px; /* Further reduced font size for paragraphs */
+        padding: 0px 5px; /* Further reduced padding for smaller screens */
+        margin-top: 10px; /* Further reduced margin-top */
+        padding-bottom: 10px; /* Further reduced padding-bottom */
+    }
+
+    .one_main button {
+        padding: 8px 15px; /* Further reduced padding for buttons */
+        font-size: 14px; /* Further reduced font size for buttons */
+        border-radius: 15px; /* Adjusted border-radius for smaller screens */
+    }
+   
+}

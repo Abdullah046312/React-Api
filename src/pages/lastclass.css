@@ -1,0 +1,48 @@
+.api_main h2{
+    font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #29313D;
+}
+.api_main h3{
+    font-size: 20px;
+    font-family: "Paprika", system-ui;
+    font-weight: 500;
+    color: #29313D;
+    margin-top: 10px;
+}
+
+.api_main h4{
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #29313D;
+}
+.api_main h5{
+    font-size: 48px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #29313D;
+}
+.api_main h6{
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: #29313D;
+}
+
+.api_main p{
+    font-size: 20px;
+    font-family: "Paprika", system-ui;
+    font-weight: 600;
+    color: rgba(114, 110, 158, 0.808);
+    margin-top: 10px;
+}
+
+.api_main span{
+  
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #D6A033;
+}

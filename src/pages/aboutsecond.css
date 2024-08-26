@@ -1,0 +1,46 @@
+#aboutsecond{
+    background-color: #181059;
+    padding: 60px 0px;
+}
+.tharty_three{
+    margin: 0px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+.tharty_three img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    transition: all ease-in-out 0.5s;
+    
+}
+
+.tharty_three img:hover{
+    width: 30%;
+}
+
+.tharty_four{
+    margin-top: 60px;
+    display: flex;
+    gap: 10px;
+}
+
+.tharty_four button{
+    padding: 10px 10px;
+    font-size: 14px;
+    background-color: #F8A64C;
+    color: #FDFDFD;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    border: none;
+}
+
+.tharty_four button:hover{
+    background-color: #6A55EA;
+}

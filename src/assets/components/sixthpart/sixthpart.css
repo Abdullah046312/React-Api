@@ -1,0 +1,235 @@
+#sixth{
+    background-color: #FEF8E4;
+    padding: 60px 0px;
+    margin-top: 120px;
+}
+
+.twelev{
+    text-align: center;
+}
+
+.twelev img{
+    width: 10%;
+}
+
+.twelev h2{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    color: #2C2643;
+}
+
+.twelev p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+}
+
+.therteen{
+    margin-top: 100px;
+    background-color: wheat;
+    padding: 20px 20px;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.therteen:hover{
+    background-color: #FF7628;
+    transform: scale(1.1);
+}
+
+.therteen h4{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #2C2643;
+}
+.therteen h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #2C2643;
+}
+
+.therteen p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    margin-top: 10px;
+    padding-right: 70px;
+}
+
+.fourteen img{
+    width: 100%;
+    margin-top: 40px;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.fourteen img:hover{
+    transform: scale(1.1);
+}
+
+
+@media (min-device-width: 320px) and (max-device-width: 575px) {
+    #sixth {
+        padding: 30px 0px; 
+        margin-top: 60px; 
+    }
+
+    .twelev img {
+        width: 20%; 
+    }
+
+    .twelev h2 {
+        font-size: 36px; 
+    }
+
+    .twelev p {
+        font-size: 18px; 
+    }
+
+    .therteen {
+        margin-top: 50px; 
+        padding: 15px; 
+    }
+
+    .therteen h4 {
+        font-size: 16px; 
+    }
+
+    .therteen h3 {
+        font-size: 24px; 
+    }
+
+    .therteen p {
+        font-size: 16px; 
+        padding-right: 30px; 
+    }
+
+    .fourteen img {
+        height: auto; 
+        margin-top: 20px; 
+    }
+}
+
+
+@media (min-device-width: 576px) and (max-device-width: 767px) {
+    #sixth {
+        padding: 40px 0px; 
+        margin-top: 80px; 
+    }
+
+    .twelev img {
+        width: 15%; 
+    }
+
+    .twelev h2 {
+        font-size: 40px; 
+    }
+
+    .twelev p {
+        font-size: 18px; 
+    }
+
+    .therteen {
+        margin-top: 60px; 
+        padding: 15px 15px; 
+    }
+
+    .therteen h4 {
+        font-size: 16px; 
+    }
+
+    .therteen h3 {
+        font-size: 24px; 
+    }
+
+    .therteen p {
+        font-size: 16px; 
+        padding-right: 50px; 
+    }
+
+    .fourteen img {
+        height: auto; 
+        margin-top: 20px; 
+    }
+}
+
+
+@media (min-device-width: 768px) and (max-device-width: 991px) {
+    #sixth {
+        padding: 50px 0px; 
+        margin-top: 100px; 
+    }
+
+    .twelev img {
+        width: 12%; 
+    }
+
+    .twelev h2 {
+        font-size: 42px; 
+    }
+
+    .twelev p {
+        font-size: 18px; 
+    }
+
+    .therteen {
+        margin-top: 80px; 
+        padding: 15px 15px; 
+    }
+
+    .therteen h4 {
+        font-size: 16px; 
+    }
+
+    .therteen h3 {
+        font-size: 26px; 
+    }
+
+    .therteen p {
+        font-size: 16px; 
+        padding-right: 50px; 
+    }
+}
+
+@media (min-device-width: 992px) and (max-device-width: 1199px) {
+    #sixth {
+        padding: 80px 0px; 
+        margin-top: 100px; 
+    }
+
+    .twelev img {
+        width: 12%; 
+    }
+
+    .twelev h2 {
+        font-size: 54px; 
+    }
+
+    .twelev p {
+        font-size: 22px; 
+    }
+
+    .therteen {
+        margin-top: 80px; 
+        padding: 25px 25px; 
+    }
+
+    .therteen h4 {
+        font-size: 20px; 
+    }
+
+    .therteen h3 {
+        font-size: 32px; 
+    }
+
+    .therteen p {
+        font-size: 20px; 
+        padding-right: 80px; 
+    }
+}

@@ -1,0 +1,104 @@
+#aboutthird{
+    padding: 20px 0px;
+}
+.tharty_five p{
+    background-color: green;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #FDFDFD;
+    padding: 20px 20px;
+}
+
+.tharty_six{
+    background-color: orange;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #FDFDFD;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.tharty_seven{
+    margin-top: 20px;
+    position: relative;
+    width: 100%; 
+    max-width: 600px;
+}
+
+.tharty_seven img{
+    
+    width: 100%;
+    height: auto; 
+    display: block;
+    transform: scale(1);
+    transition: all ease-in-out 0.2s;
+}
+
+.tharty_seven img:hover{
+    transform: scale(1.05);
+}
+
+.text_inner p{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #FDFDFD;
+    
+    font-size: 16px; 
+    text-align: center;
+    
+    
+}
+
+/* styles.css */
+.tharty_eight {
+    font-family: Arial, sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100px;
+    margin: 0;
+    
+}
+
+.pagination {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination a {
+    font-size: 20px;
+    display: block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination .prev, .pagination .next {
+    font-weight: bold;
+}
+
+.pagination .page {
+    color: #333;
+}
+
+.pagination .page.active {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+

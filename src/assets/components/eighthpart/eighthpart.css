@@ -1,0 +1,321 @@
+#eighth{
+    background-color: #FEF8E4;
+    
+}
+
+.logo{
+    text-align: center;
+    padding: 60px 0px;
+}
+.logo img{
+    width: 10%;
+}
+
+.logo h2{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #5F5450;
+}
+.seventeen img{
+    width: 100%;
+    transform: scale(.9);
+    transition: .4s;
+   
+}
+
+.seventeen img:hover{
+    transform: scale(1);
+
+}
+
+.eightteen{
+    padding-left: 30px;
+}
+.eightteen h4{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #5F5450;
+}
+
+.eightteen h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #3D3430;
+}
+
+.eightteen p{
+    font-size: 18px;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.nineteen{
+    padding: 40px 0px;
+}
+.nineteen h4{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #5F5450;
+}
+
+.nineteen h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #3D3430;
+}
+
+.nineteen p{
+    font-size: 18px;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.twenty{
+    padding: 40px 30px;
+}
+.twenty h4{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #5F5450;
+}
+
+.twenty h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #3D3430;
+}
+
+.twenty p{
+    font-size: 18px;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 575px) {
+    .logo img {
+        width: 20%; 
+    }
+
+    .logo h2 {
+        font-size: 28px; 
+    }
+    .seventeen img {
+        transform: scale(.8); 
+    }
+    .eightteen {
+        padding-left: 15px; 
+    }
+
+    .eightteen h4 {
+        font-size: 36px; 
+    }
+
+    .eightteen h3 {
+        font-size: 18px; 
+    }
+    .eightteen p {
+        font-size: 16px; 
+    }
+
+    .nineteen h4 {
+        font-size: 36px; 
+    }
+
+    .nineteen h3 {
+        font-size: 18px; 
+    }
+
+    .nineteen p {
+        font-size: 16px; 
+    }
+
+    .twenty h4 {
+        font-size: 36px; 
+    }
+
+    .twenty h3 {
+        font-size: 18px; 
+    }
+
+    .twenty p {
+        font-size: 16px; 
+    }
+}
+
+@media (min-device-width: 576px) and (max-device-width: 767px) {
+    .logo img {
+        width: 20%; 
+    }
+
+    .logo h2 {
+        font-size: 36px;
+    }
+
+    .seventeen img {
+        transform: scale(.85); 
+    }
+
+    .eightteen {
+        padding-left: 20px; 
+    }
+
+    .eightteen h4 {
+        font-size: 48px;
+    }
+
+    .eightteen h3 {
+        font-size: 20px; 
+    }
+
+    .eightteen p {
+        font-size: 16px; 
+    }
+    .nineteen h4 {
+        font-size: 48px; 
+    }
+
+    .nineteen h3 {
+        font-size: 20px; 
+    }
+
+    .nineteen p {
+        font-size: 16px; 
+    }
+
+    .twenty h4 {
+        font-size: 48px; 
+    }
+    .twenty h3 {
+        font-size: 20px; 
+    }
+    .twenty p {
+        font-size: 16px;
+    }
+}
+
+
+@media (min-device-width: 768px) and (max-device-width: 991px) {
+    .logo img {
+        width: 20%; 
+    }
+    .logo h2 {
+        font-size: 42px; 
+    }
+
+    .seventeen img {
+        transform: scale(.85); 
+    }
+
+    .eightteen {
+        padding-left: 20px; 
+    }
+
+    .eightteen h4 {
+        font-size: 56px; 
+    }
+
+    .eightteen h3 {
+        font-size: 22px; 
+    }
+
+    .eightteen p {
+        font-size: 16px; 
+    }
+
+    .nineteen h4 {
+        font-size: 56px; 
+    }
+
+    .nineteen h3 {
+        font-size: 22px; 
+    }
+
+    .nineteen p {
+        font-size: 16px; 
+    }
+
+    .twenty h4 {
+        font-size: 56px; 
+    }
+
+    .twenty h3 {
+        font-size: 22px; 
+    }
+
+    .twenty p {
+        font-size: 16px; 
+    }
+}
+
+
+@media (min-device-width: 992px) and (max-device-width: 1199px) {
+    .logo img {
+        width: 15%; 
+    }
+    .logo h2 {
+        font-size: 48px; 
+    }
+
+    .seventeen img {
+        transform: scale(.95); 
+    }
+    .eightteen {
+        padding-left: 40px; 
+    }
+
+    .eightteen h4 {
+        font-size: 72px; 
+    }
+    .eightteen h3 {
+        font-size: 28px; 
+    }
+
+    .eightteen p {
+        font-size: 20px; 
+    }
+
+    .nineteen h4 {
+        font-size: 72px; 
+    }
+
+    .nineteen h3 {
+        font-size: 28px; 
+    }
+
+    .nineteen p {
+        font-size: 20px; 
+    }
+
+    .twenty h4 {
+        font-size: 72px; 
+    }
+
+    .twenty h3 {
+        font-size: 28px; 
+    }
+
+    .twenty p {
+        font-size: 20px; 
+    }
+}
+
+@media (min-device-width: 1200px) and (max-device-width: 1399px) {
+    .logo img {
+        width: 10%; 
+    }
+
+    .logo h2 {
+        font-size: 48px; 
+    }
+}

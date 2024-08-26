@@ -1,0 +1,270 @@
+#seventhth{
+    background-color: #EDF3F7;
+    padding: 60px 0px;
+}
+
+.fiveteen{
+    text-align: center;
+}
+
+.fiveteen img{
+    width: 10%;
+}
+
+.fiveteen h4{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #FD5F36;
+    margin-top: 10px;
+}
+
+.fiveteen h2{
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #29313D;
+}
+
+
+.sixteen{
+    background-color: #FFD7C8;
+    padding: 40px 40px;
+    margin-top: 60px;
+    transition: .5s;
+    transform: scale(1);
+    -webkit-box-shadow: -1px -1px 11px 5px rgba(0,0,0,0.58);
+-moz-box-shadow: -1px -1px 11px 5px rgba(0,0,0,0.58);
+box-shadow: -1px -1px 11px 5px rgba(0,0,0,0.58);
+}
+
+.sixteen:hover{
+    background-color: #FD5F36;
+    transform: scale(1.1);
+}
+
+
+.sixteen h4{
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #29313D;
+}
+
+.sixteen p{
+    font-size: 17px;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.sixteen h2{
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #29313D;
+}
+
+.sixteen button{
+    padding: 10px 30px;
+    background-color: #FD5F36;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    border: none;
+    transition: .5s;
+    transform: scale(1);
+}
+
+.sixteen button:hover{
+    background-color: #8454F5;
+    border: yellow;
+    transform: scale(1.1);
+}
+
+.sixteen h5{
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #29313D;
+    margin-top: 20px;
+}
+
+
+@media (min-device-width: 320px) and (max-device-width: 575px) {
+    #seventhth {
+        padding: 40px 0px; 
+    }
+
+    .fiveteen img {
+        width: 25%; 
+    }
+
+    .fiveteen h2 {
+        font-size: 32px; 
+    }
+
+    .fiveteen h4 {
+        font-size: 16px; 
+    }
+
+    .sixteen {
+        padding: 40px 40px; 
+        margin-top: 40px; 
+    }
+
+    .sixteen h4 {
+        font-size: 34px;
+        font-weight: 700;
+    }
+
+    .sixteen h2 {
+        font-size: 48px; 
+    }
+
+    .sixteen p {
+        font-size: 15px; 
+    }
+    .sixteen button {
+        padding: 8px 20px; 
+        font-size: 16px; 
+    }
+
+    .sixteen h5 {
+        font-size: 16px; 
+    }
+}
+
+
+@media (min-device-width: 576px) and (max-device-width: 767px) {
+    #seventhth {
+        padding: 40px 0px; 
+    }
+
+    .fiveteen img {
+        width: 20%; 
+    }
+
+    .fiveteen h2 {
+        font-size: 40px; 
+    }
+
+    .fiveteen h4 {
+        font-size: 18px; 
+    }
+
+    .sixteen {
+        padding: 30px 20px; 
+        margin-top: 40px; 
+    }
+
+    .sixteen h4 {
+        font-size: 30px; 
+    }
+
+    .sixteen h2 {
+        font-size: 40px; 
+    }
+
+    .sixteen p {
+        font-size: 15px; 
+        margin-top: 15px; 
+    }
+    .sixteen button {
+        padding: 8px 20px; 
+        font-size: 16px; 
+    }
+
+    .sixteen h5 {
+        font-size: 18px; 
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 991px) {
+    #seventhth {
+        padding: 50px 0; 
+    }
+
+    .fiveteen img {
+        width: 15%; 
+    }
+    .fiveteen h2 {
+        font-size: 40px; 
+    }
+    .fiveteen h4 {
+        font-size: 24px; 
+    }
+    .sixteen {
+        padding: 30px 30px; 
+    }
+    .sixteen h4 {
+        font-size: 32px; 
+    }
+
+    .sixteen h2 {
+        font-size: 40px; 
+    }
+
+    .sixteen p {
+        font-size: 15px; 
+        margin-top: 15px; 
+    }
+
+    .sixteen button {
+        padding: 8px 25px; 
+        font-size: 16px; 
+    }
+
+    .sixteen h5 {
+        font-size: 18px; 
+}
+
+}
+
+@media (min-device-width: 992px) and (max-device-width: 1199px) {
+    #seventhth {
+        padding: 70px 0; 
+    }
+
+    .fiveteen img {
+        width: 15%; 
+    }
+
+    .fiveteen h2 {
+        font-size: 50px; 
+    }
+    .fiveteen h4 {
+        font-size: 22px; 
+    }
+
+    .sixteen {
+        padding: 40px 40px; 
+        margin-top: 80px; 
+    }
+
+    .sixteen h4 {
+        font-size: 28px; 
+    }
+
+    .sixteen h2 {
+        font-size: 36px; 
+    }
+    .sixteen p {
+        font-size: 14px; 
+        margin-top: 20px; 
+    }
+
+    .sixteen button {
+        padding: 12px 25px; 
+        font-size: 20px; 
+    }
+    .sixteen h5 {
+        font-size: 18px; 
+    }
+}
+

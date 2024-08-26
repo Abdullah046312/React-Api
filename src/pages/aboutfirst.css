@@ -1,0 +1,48 @@
+#accordion{
+    padding: 120px 0px;
+    
+}
+
+.tharty_one button{
+    height: 60px;
+    width: 400px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #29313D;
+    
+}
+.tharty_one h2{
+    font-size: 42px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #29313D;
+}
+.tharty_one i{
+    font-size: 30px;
+    padding: 30px 10px;
+    
+    
+}
+
+.tharty_one p{
+    font-size: 18px;
+    font-family: "Paprika", system-ui;
+    font-weight: 500;
+    color: rgba(114, 110, 158, 0.808);
+    margin-top: 10px;
+    padding-right: 100px;
+}
+
+.tharty_two img{
+    width: 400px;
+    height: 500px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: .8s;
+    border-radius: 10px;
+}
+
+.tharty_two img:hover{
+    transform: rotateY(160deg);
+}

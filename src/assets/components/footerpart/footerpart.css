@@ -1,0 +1,188 @@
+#footer{
+    padding: 120px 0px;
+    background-color: rgba(248, 165, 76, 0.507);
+    margin-top: 100px;
+}
+.twenty_one img{
+    width: 30%;
+}
+.twenty_one p{
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #29313D;
+    margin-top: 20px;
+}
+
+.twenty_two h4{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #29313D;
+    padding-bottom: 20px;
+}
+
+.twenty_two h5{
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #29313D;
+    margin-top: 20px;
+}
+
+.twenty_three{
+    margin-top: 10px;
+}
+
+
+.twenty_three h4{
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #29313D;
+}
+
+.twenty_three h2{
+    font-size: 18px;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    color: #29313D;
+}
+
+
+@media (min-device-width: 320px) and (max-device-width: 575px) {
+    #footer {
+        padding: 60px 15px; 
+        margin-top: 60px; 
+    }
+
+    .twenty_one img {
+        width: 20%; 
+    }
+
+    .twenty_one p {
+        font-size: 16px; 
+    }
+
+    .twenty_two h4 {
+        font-size: 20px; 
+    }
+
+    .twenty_two h5 {
+        font-size: 16px; 
+    }
+
+    .twenty_three h4 {
+        font-size: 16px; 
+    }
+
+    .twenty_three h2 {
+        font-size: 16px; 
+    }
+}
+
+
+@media (min-device-width: 576px) and (max-device-width: 767px) {
+    #footer {
+        padding: 80px 20px; 
+        margin-top: 60px; 
+    }
+
+    .twenty_one img {
+        width: 25%; 
+    }
+
+    .twenty_one p {
+        font-size: 16px; 
+    }
+
+    .twenty_two h4 {
+        font-size: 20px; 
+    }
+
+    .twenty_two h5 {
+        font-size: 16px; 
+    }
+
+    .twenty_three {
+        margin-top: 40px; 
+    }
+
+    .twenty_three h4 {
+        font-size: 16px; 
+    }
+
+    .twenty_three h2 {
+        font-size: 16px; 
+    }
+}
+
+
+@media (min-device-width: 768px) and (max-device-width: 991px) {
+    #footer {
+        padding: 80px 20px;
+        margin-top: 80px; 
+    }
+
+    .twenty_one img {
+        width: 20%; 
+    }
+
+    .twenty_one p {
+        font-size: 16px; 
+    }
+
+    .twenty_two h4 {
+        font-size: 20px; 
+    }
+
+    .twenty_two h5 {
+        font-size: 16px; 
+    }
+
+    .twenty_three {
+        margin-top: 40px; 
+    }
+
+    .twenty_three h4 {
+        font-size: 16px; 
+    }
+
+    .twenty_three h2 {
+        font-size: 16px; 
+    }
+}
+
+@media (min-device-width: 992px) and (max-device-width: 1199px) {
+    #footer {
+        padding: 100px 20px;
+        margin-top: 80px; 
+    }
+
+    .twenty_one img {
+        width: 35%; 
+    }
+
+    .twenty_one p {
+        font-size: 16px; 
+    }
+
+    .twenty_two h4 {
+        font-size: 22px; }
+
+    .twenty_two h5 {
+        font-size: 16px; 
+    }
+
+    .twenty_three {
+        margin-top: 50px; 
+    }
+
+    .twenty_three h4 {
+        font-size: 12px; 
+    }
+
+    .twenty_three h2 {
+        font-size: 14px; 
+    }
+}

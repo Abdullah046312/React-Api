@@ -1,0 +1,88 @@
+#two{
+    padding: 120px 0px;
+    background-color: #F6EBBD;
+}
+
+
+
+
+
+.three_main{
+    display: inline-block;
+    
+    padding: 0px 20px;
+}
+
+
+.two_main h2{
+    font-size: 74px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    color: #D6A033;
+}
+.two_main h3{
+    font-size: 74px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    color: #FF7628;
+}
+
+.two_main p{
+    font-size: 20px;
+    font-family: "Paprika", system-ui;
+    font-weight: 400;
+    color: rgba(114, 110, 158, 0.808);
+    margin-top: 30px;
+    padding: 0px 120px;
+    padding-bottom: 30px;
+}
+
+.two_main button{
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: rgba(193, 78, 55, 0.466);
+    font-size: 20px;
+    font-family: "Paprika", system-ui;
+    font-weight: 800;
+    border: none;
+    transform: scale(1);
+    transition: .5s;
+
+}
+
+.two_main button:hover{
+    background-color: #D6A033;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 320px) {
+    #two {
+        padding: 40px 5px; /* Further reduced padding */
+    }
+
+    .three_main {
+        padding: 0px 5px; /* Further reduced padding */
+    }
+
+    .two_main h2 {
+        font-size: 24px; /* Further reduced font size for headers */
+    }
+
+    .two_main h3 {
+        font-size: 24px; /* Further reduced font size for headers */
+    }
+
+    .two_main p {
+        font-size: 12px; /* Further reduced font size for paragraphs */
+        padding: 0px 5px; /* Further reduced padding */
+        margin-top: 10px; /* Further reduced margin-top */
+        padding-bottom: 10px; /* Further reduced padding-bottom */
+    }
+
+    .two_main button {
+        padding: 8px 15px; /* Further reduced padding */
+        font-size: 14px; /* Further reduced font size for buttons */
+        border-radius: 15px; /* Adjusted border-radius for smaller screens */
+    }
+}

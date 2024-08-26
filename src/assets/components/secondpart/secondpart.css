@@ -1,0 +1,65 @@
+#second{
+    padding: 60px 0px;
+}
+
+.three img{
+    width: 100%;
+    margin-top: 40px;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.three img:hover{
+    transform: scale(1.2);
+}
+.four img{
+    width: 20%;
+}
+.four h2{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    color: #202427;
+    margin-top: 10px;
+}
+
+.four p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Paprika", system-ui;
+    color: #6C7D93;
+    margin-top: 20px;
+}
+
+.five img{
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+@media (min-device-width: 320px) and (max-device-width: 575px) {
+    .three img {
+        width: 100%; /* Maintain full width on small screens */
+        margin-top: 20px; /* Reduced margin for small screens */
+    }
+
+    .four img {
+        width: 25%;
+        margin-top: 10px; /* Increase image width to fit smaller screens better */
+    }
+
+    .four h2 {
+        font-size: 28px; /* Reduce font size for better fit on small screens */
+    }
+
+    .four p {
+        font-size: 14px; /* Reduce font size for better readability on small screens */
+        margin-top: 10px; /* Reduce margin for better spacing */
+    }
+
+    .five img {
+        margin-top: 20px;
+        width: 90%; /* Adjust margin for smaller screens */
+    }
+}
+
